@@ -1,10 +1,10 @@
-$testchoco = powershell choco -v
-if(-not($testchoco)){
+
+if(-not(test-path "C:\ProgramData\chocolatey\choco.exe")){
     Write-Output "Seems Chocolatey is not installed, installing now"
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 else{
-    Write-Output "Chocolatey Version $testchoco is already installed, Starting to install packages"
+    Write-Output "Chocolatey Version is already installed, Starting to install packages"
 }
 choco install vscode -y
 choco install firefox -y
