@@ -20,8 +20,7 @@ choco install git -y
 choco install putty -y
 choco install winscp -y
 choco install virtualbox -y
-choco install swi-prolog -y
-choco install gprolog-mingw -y
+
  
 Write-Output "Installing VS code extensions please wait"
  
