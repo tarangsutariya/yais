@@ -21,7 +21,6 @@ choco install putty -y
 choco install winscp -y
 choco install virtualbox -y
 
- 
 Write-Output "Installing VS code extensions please wait"
  
 code --install-extension akamud.vscode-theme-onedark
