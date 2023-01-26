@@ -20,5 +20,4 @@ Open powershell as Administrator and run the following command
 - nodepad++
 - git
 - virtualbox
-- gnu prolog
-- swi prolog
+
